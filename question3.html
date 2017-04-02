@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Chase May -->
+<!-- Project 02 -->
+
+<html>
+<head>
+<title>Intelligence Test</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+	<ul>
+		<li style="float: left;"><a class="active" href="index.html">Home</a></li>
+
+		<li><a class="active" href="question3.html">Question 3</a></li>
+
+	</ul>
+	<br/>
+	<div style="margin-left: 5%; margin-right: 5%; padding: 1px 16px;">
+		<h2>Question #3</h2>
+		<hr />
+		4 + 2 = 24<br />
+		7 + 4 = 77<br />
+		3 + 2 = 15<br />
+		2 + 3 = 10<br />
+		6 + 3 = 54<br />
+		8 + 5 = <input type="number"
+			name="thirdanswer" id="thirdanswer" onChange="evaluateThirdAnswer()"></input>
+			<br/><br/><p id="status"></p><hr/>
+			<input type="button" class="button" value="View Score" onclick="gotoScorecard()"></input>
+			<input type="hidden" value=0" id="score"></input>
+	</div>
+
+</body>
+</html>
